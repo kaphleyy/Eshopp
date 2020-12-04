@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.custom-nav{
+    background: #000;
+}
+
+/* ! Footer styles */
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+
+}
+
+.footer{
+    background: #000;
+    color : rgb(206, 187, 187);
+    position: relative;
+}
+
+.top {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: rgb(197, 164, 164);
+}
+.footer-hr {
+    border : 1px solid rgb(179, 116, 116);
+}
+
+.footer-listelem {
+    display: inline-block;
+    font-size : 13px;
+    margin : 10px;  
+    color : white;
+
+}
+h5 {
+    display: inline-block;
+}
+.footer-row {
+    margin : 5px;
+}
+
+/*! Card styles */
+
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width : 300px;
+    height: 300px;
+    background: linear-gradient(gray,black);
+    align-items: center;
+    justify-content: center;
+    border-radius: 4% 4%;
+    position: relative;
+    margin : 20px 30px;
+    padding : 30px;
+    box-shadow: 10px 10px 10px black;
+    display: inline-block;
+}
+
+.IMG {
+    position: relative;
+    top: -31px;
+    left : -31px;
+    border-radius: 4%;
+    width: 300px;
+    height: 220px;
+}
+.title-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin : -5px 15px 0px 60px;
+    font-size: 20px;
+    color : pink;
+    text-shadow: 1px 1px 2px black , 0 0 25px blue , 0 0 5px darkblue;
+
+}
+.description {
+    font-family: monospace;
+    padding-left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px black , 0 0 25px blue , 0 0 5px darkblue;
+
+}
+.card-body {
+position : absolute;
+bottom: -6px;
+}
+
+/* ! payy  cart component*/
+
+.payy {
+    background: rgb(214, 211, 211);
+    position: absolute;
+    right : 4rem;
+    top : 4rem;
+    min-width: 500px;
+}
+.payy .total-price {
+    background: rgb(46, 192, 131);
+    width : 100px;
+    font-size: large;
+    position :absolute;
+    right: 0;
+
+}
+.cart-buttons {
+border : 0;    
+display: inline;
+width : 35px;
+height: 40px;
+background:rgb(214, 211, 211); ;
+font-size: 30px;
+padding : 3px;
+}
+
+.changeNo {
+    margin-left :10px;
+    border : 1px solid black;
+    width: 100px;
+    height : 50px;
+}
+
+.size {
+    height : 50px;
+    width: 250px;
+}
+
+.flexMaintain {
+    display: flex;
+}
+    
