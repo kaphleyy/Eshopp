@@ -8,23 +8,23 @@ import fb  from './assets/fb.png';
 export default function Login() {
  
 
-function handleClick(event) {
-    event.preventDefault(); 
 
-}
      const [isOld , setNew] = useState(true);
 
     return (
         <div className = "login">
             <div className = "real-form">
            <h2>{isOld? "SignIn" : "SignUp"} to <span>Shopify</span></h2> 
-<form>
+           
+<form action = "/" method ="POST">
       {!isOld? <input className = "input" type="text" placeholder  = "FullName" name = "fullName" /> :null }  
     
     <input className = "input" type="email" placeholder  = "Email" name = "email" />
      <input className = "input  " type="password" placeholder  = "Password" name = "password"/>
-     {isOld? <button className = "btn btn-primary" type = "submit" onClick = {handleClick}>SignIn</button>
-      :<button className = "btn btn-primary" type = "submit" onClick = {handleClick}>SignUp</button>}
+
+     {isOld? <button className = "btn btn-primary form-submit"  type = "submit" >SignIn</button>
+      : <button className = "btn btn-primary form-submit" type = "submit">SignUp</button>}
+
 </form>
 </div>
       <div>

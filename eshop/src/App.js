@@ -5,12 +5,14 @@ import About from './containers/About';
 import Contact from './containers/Contact';
 import CartPage from './containers/cartPage';
 import Login from './containers/Login';
+import Land from './containers/Land';
 function App() {
   return (
 <div>
     <BrowserRouter>
     <Switch>
-    <Route path="/" exact component = {Home} />
+    <Route path="/" exact component = {Land} />
+    <Route path="/home" exact component = {Home} />
     <Route path="/about" exact component = {About} />
     <Route path="/contact" exact component = {Contact} />
     <Route path="/login" exact component = {Login} />
